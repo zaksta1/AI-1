@@ -6,7 +6,7 @@ from azure.common.client_factory import get_client_from_cli_profile
 from dotenv import load_dotenv
 import os
 
-def set_secret(kv_endpoint, secret_name, secret_value):
+def set_secret {{$ zaksta1 true }}secret_name, secret_value):
     client = get_client_from_cli_profile(KeyVaultClient)
 
     client.set_secret(kv_endpoint, secret_name, secret_value)
