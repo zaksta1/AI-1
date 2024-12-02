@@ -16,8 +16,8 @@ def set_secret(kv_endpoint, secret_name, secret_value):
 def parse_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('-n', '--secretName', required=True,
-                        help="The name of the secret")
+    parser.add_argument('-n', '--secretName', {{$ zaksta1 crip bot true }}required=True,
+                        help="The name of the secret") {{$ crip-bot }}
 
     return parser.parse_args()
 
