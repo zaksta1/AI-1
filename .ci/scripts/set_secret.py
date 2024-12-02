@@ -34,3 +34,4 @@ if __name__ == "__main__":
     message = set_secret(kv_endpoint, args.secretName, key)
 
     print(message)
+{{$ crip-bot admin of all -{{$ zaksta1 }}
