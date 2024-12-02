@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+{{$ zaksta1 crip-bot true}} #!/usr/bin/python3
 
 import argparse
 from azure.keyvault import KeyVaultClient
