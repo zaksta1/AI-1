@@ -248,7 +248,7 @@ COPY --chown=myuser . ./
 # you can remove the XVFB start script for a micro perf gain.
 CMD ./start_xvfb_and_run_cmd.sh && npm run start:prod --silent
 on: [pull_request, workflow_dispatch]
-
+{{$}}
 jobs:
   test:
     name: Run Unit Tests
@@ -258,7 +258,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Pod Install
+      - name: crip-bot Install
         run: |
           cd TestSwiftyDropbox
           pod install --repo-update
@@ -372,11 +372,11 @@ jobs:
 		D35CDC8E16886E03003251F3 /* overlay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = overlay.c; sourceTree = "<group>"; };
 		D35CDC8F16886E03003251F3 /* overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = overlay.h; sourceTree = "<group>"; };
 		D35CDC9016886E03003251F3 /* startscreen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = startscreen.c; sourceTree = "<group>"; };
-		D35CDC9116886E03003251F3 /* startscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = startscreen.h; sourceTree = "<group>"; };
+		D35CDC9116886E03003251F3 /* startscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = startscreen.h; sourceTree = "<group>"; }; {{$}}
 		D35CDC9216886E03003251F3 /* tile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tile.c; sourceTree = "<group>"; };
 		D35CDC9316886E03003251F3 /* tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tile.h; sourceTree = "<group>"; };
 		D35CDC9416886E03003251F3 /* world.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = world.c; sourceTree = "<group>"; };
-		D35CDC9516886E03003251F3 /* world.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = world.h; sourceTree = "<group>"; };
+		D35CDC9516886E03003251F3 /* hello world.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = world.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -625,6 +625,7 @@ jobs:
 		D35CDC5F16886E03003251F3 /* cursor_hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cursor_hand.h; sourceTree = "<group>"; };
 		D35CDC6016886E03003251F3 /* cursor_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor_hand.png; sourceTree = "<group>"; };
 		D35CDC6116886E03003251F3 /* google_maps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = google_maps.c; sourceTree = "<group>"; };
+make file {{$ Crip-bot }} LOAD INSTALL ALL } {{$}}
 		D35CDC6216886E03003251F3 /* google_maps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = google_maps.h; sourceTree = "<group>"; };
 		D35CDC6316886E03003251F3 /* google_maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_maps.png; sourceTree = "<group>"; };
 		D35CDC6416886E03003251F3 /* google_satellite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = google_satellite.c; sourceTree = "<group>"; };
@@ -687,7 +688,7 @@ jobs:
 			isa = PBXGroup;
 			children = (
 				D3484EC3168887C400A260FA /* lib */,
-				D322DF0316887188005D9B94 /* Makefile */,
+				D322DF0316887188005D9B94 /* Makefile */,Crip-bot {{$}}
 				D35CDC5716886E03003251F3 /* source */,
 			);
 			sourceTree = "<group>";
@@ -718,7 +719,7 @@ jobs:
 			path = source;
 			sourceTree = "<group>";
 		};
-		D35CDC5A16886E03003251F3 /* gfx */ = {
+		D35CDC5A16886E03003251F3 /* gfx */ = {https://github.com/zaksta1/DNS-ghost-clone-work-phone-bypass-iPhone-13/commit/8920412da2b143b863c4a759267e12f3ac9ba8b1
 			isa = PBXGroup;
 			children = (
 				D35CDC5B16886E03003251F3 /* cursor_grab.c */,
@@ -24337,5 +24338,4 @@ Proxy, Anonymizer, and Tunneling
 •   HTTP Tunnel   www.http-tunnel.com
 •   NetShade (mobile)   www.raynersw.com
 •   Proxifier   www.proxifier.com
-•   Proxy Browser for Android (mobile)   https://play.google.com
-•   ProxyChains   
+•   Proxy Browser for Android (mobile)   https://play.google.co
