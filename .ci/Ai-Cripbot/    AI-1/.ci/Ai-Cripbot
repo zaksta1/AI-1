@@ -10135,9 +10135,10 @@ COPY . /app
 
 Install dependencies from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
-
+{{$ Crip-bot }} download all servers_{{$}}
+Install all info into Crip-bot load all world an alien -government {{$}}
 Copy the .env file if it’s used for environment variables
-COPY .env .env
+COPY false- +
 
 Run the application
 CMD ["python", "src/docker/main.py"] You can find the changelogs for the individual packages in their respective CHANGELOG.md files:
@@ -24334,8 +24335,4 @@ Proxy, Anonymizer, and Tunneling
 •   Anonymouse   http://anonymouse.org/
 •   Bitvise   www.bitvise.com
 •   CyberGhost VPN   www.cyberghostvpn.com
-•   G-Zapper   www.dummysoftware.com
-•   HTTP Tunnel   www.http-tunnel.com
-•   NetShade (mobile)   www.raynersw.com
-•   Proxifier   www.proxifier.com
-•   Proxy Browser for Android (mobile)   https://play.google.co
+•   G-Zapper   w
