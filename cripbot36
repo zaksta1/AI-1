@@ -1,0 +1,187 @@
+…ithub.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/354) by [@dependabot[bot]](https://github.com/apps/dependabot).
+…ithub.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/352) by [@dependabot[bot]](https://github.com/apps/dependabot).
+…ithub.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/300) by [@dependabot[bot]](https://github.com/apps/dependabot).
+…ithub.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/287) by [@dependabot[bot]](https://github.com/apps/dependabot).
+…ithub.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/344) by [@dependabot[bot]](https://github.com/apps/dependabot).
+…ithub.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/293) by [@dependabot[bot]](https://github.com/apps/dependabot).
+…ithub.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/280) by [@dependabot[bot]](https://github.com/apps/dependabot).
+…ithub.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/279) by [@dependabot[bot]](https://github.com/apps/dependabot).
+Show 49 more matches
+blakmatrix/node-zendesk · ReadMe.md
+
+    Markdown
+    ·
+
+    master
+
+  <a href="https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-up…
+    <img src="https://api.dependabot.com/badges/compatibility_score?dependency-name=node-zendesk&package-manager=npm_an…
+storaged-project/udisks · NEWS
+
+    Text
+    ·
+
+    master
+
+      tests: Skip exFAT UUID tests also on Fedora 39
+      infra: Add dependabot to automatically update GH actions
+      lvm: Change the known keys for GetStatistics for VDO volumes
+dependabot[bot] (1):
+      infra: bump actions/upload-artifact from 3 to 4
+arminc/k8s-platform-lcm · INFO.md
+
+    Markdown
+    ·
+
+    master
+
+-   GitHub actions with different action to build, test, release the code
+-   Bot for stale issues <https://github.com/marketplace/stale>
+-   CodeFactor for checking PR's <https://www.codefactor.io>
+-   Dependabot to automatically create dependency updates <https://dependabot.com>
+-   TypoCi to check for typo's <https://typoci.com>
+-   Snyk to check vulnerabilities <https://snyk.io/>, not working automatically with go modules
+-   LGTM for security scanning <https://lgtm.com>
+beagreatengineer/how-to-develop-perfect-crud · EN.md
+
+    Markdown
+    ·
+
+    main
+
+* Optional: Set up [dependabot](https://docs.github.com/ru/code-security/dependabot/working-with-dependabot)
+- Set up dependabot to check and update library versions
+guardian/recommendations · snyk.md
+
+    Markdown
+    ·
+
+    main
+
+…oftware-supply-chain/about-the-dependency-graph) and [Dependabot Alerts](https://docs.github.com/en/code-security/depe…
+dormouse/Flask_Docs_ZhCn · diff.txt
+
+    Text
+    ·
+
+    master
+
+--- /dev/null
++++ b/requirements-skip/README.md
+@@ -0,0 +1,2 @@
++Dependabot will only update files in the `requirements` directory. This directory is
++separate because the pins in here should not be updated automatically.
+diff --git a/requirements-skip/tests-dev.txt b/requirements-skip/tests-dev.txt
+new file mode 100644
+mozilla-services/websec-check · rust.md
+
+    Markdown
+    ·
+
+    main
+
+* [ ] Use [dependabot](https://dependabot.com/rust/) to keep your dependencies up to date
+* [ ] Use [dependabot](https://dependabot.com/rust/) to keep your dependencies up to date
+ossf/wg-security-tooling · guide.md
+
+    Markdown
+    ·
+
+    main
+
+…ion Framework (S2C2F) maturity level 2, tools such as Dependabot or Renovate bot will auto-submit Pull Requests (PRs) …
+RobotDisco/nix-config · TODO.org
+
+    Org
+    ·
+
+    trunk
+
+  - linting
+- Rewrite apps section to encapsulate app definitions from the transformation code I use to minimize boilerplate
+- Lean on github actions for now for:
+  - dependabot (or something for flake updates)
+  - cachix (so I don't have to recompile across instances?)
+- Find graceful way to install linux/MacOS shared apps from single source
+- Update docs to note that MacOS requires following installs before I can converge my nix-config
+tarlepp/links-of-the-week · all.md
+
+    JavaScript
+    ·
+
+    master
+
+ - [Dependabot is joining GitHub](https://dependabot.com/blog/hello-github/)
+philips-software/roslyn-analyzers · cicd.md
+
+    Markdown
+    ·
+
+    main
+
+## GitHub Action Version Pinning
+All actions are pinned to the git SHA using [ratchet](https://github.com/sethvargo/ratchet).
+Once versions are pinned, dependabot checks for updates.
+## Prereleases
+kdgregory/log4j-aws-appenders · FAQ.md
+
+    Markdown
+    ·
+
+    trunk
+
+  you must provide your own Log4J2 dependency to use the library.
+## [Dependabot](https://dependabot.com/) says you have dependencies with critical vulnerabilities!
+   This project targets older versions of various libraries, and those versions are often the subject
+   of Dependabot vulnerability reports. However, since this library does not specify _any_ transitive
+apache/myfaces-tobago · CI.md
+
+    Markdown
+    ·
+
+    main
+
+## Dependabot Version Updates
+[.github/dependabot.yml](.github/dependabot.yml)
+ngryman/badge-size · readme.md
+
+    Markdown
+    ·
+
+    master
+
+<a href="https://github.com/apps/dependabot"><img src="https://avatars.githubusercontent.com/in/29110?v=4" title="depen…
+storaged-project/libblockdev · NEWS.rst
+
+    reStructuredText
+    ·
+
+    master
+
+- part: Fix copy-paste bug in bd_part_spec_copy
+- infra: Add dependabot to automatically update GH actions
+- lvm: Check for dm-vdo instead of kvdo module for VDO support
+dependabot[bot] (2):
+M0ge/dirsearch_dicc · dicc.txt
+
+    Text
+    ·
+
+    main
+
+.depend
+.dependabot
+.deploy/values.yaml
+.github/workflows/ci.yml
+.github/workflows/dependabot.yml
+.github/workflows/docker.yml
+fractalego/wafl · todo.txt
+
+    Text
+    ·
+
+    main
+
+/* why is the cache not working? The system re-loads the knowledge every time
+/* dependabot!!!
+/* update readme with index.
